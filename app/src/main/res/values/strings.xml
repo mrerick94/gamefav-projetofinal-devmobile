@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GameFav</string>
+    <string name="jogo_removido_favoritos">Jogo removido dos favoritos.</string>
+    <string name="nao_possivel_remover_jogo_favoritos">Não foi possível remover jogo dos favoritos.</string>
+    <string name="jogo_adicionado_favoritos">Jogo adicionado aos favoritos!</string>
+    <string name="erro_salvar_jogo">Algo deu errado ao salvar o jogo!</string>
+    <string name="jogo_removido_sucesso_main">Jogo removido dos favoritos!</string>
+    <string name="erro_salvar_jogo_main">Algo deu errado ao salvar o jogo!</string>
+    <string name="favoritos_actionbar_title">Favoritos</string>
+    <string name="upload_actionbar_title">Subir Imagem</string>
+    <string name="http_status">\"HTTP status: \"</string>
+    <string name="data_lancamento_string">\"Data de lançamento: \"</string>
+    <string name="data_lancamento_desconhecida_string">Data de lançamento: N/A</string>
+    <string name="nota_jogo">\"Nota: \"</string>
+    <string name="pesquisar_jogos_hint">Pesquisar jogos</string>
+    <string name="escolher_imagem_button">Escolher Imagem</string>
+    <string name="subir_imagem_button">Subir Imagem</string>
+</resources>

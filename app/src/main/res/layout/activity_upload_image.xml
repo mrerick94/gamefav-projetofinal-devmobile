@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.UploadImageActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/progressBarUploadImage"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btEscolherImagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/escolher_imagem_button" />
+
+            <Button
+                android:id="@+id/btSubirImagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/subir_imagem_button" />
+
+            <EditText
+                android:id="@+id/editTextLinkGerado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/ivImagemSelecionada"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
